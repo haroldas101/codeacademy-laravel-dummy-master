@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "id":1,
+            "item":"huge kebab",
+            "price": 12
+        },
+        {
+            "id":2,
+            "item":"medium kebab",
+            "price": 7
+        },
+        {
+            "id":3,
+            "item":"tiny kebab",
+            "price": 4
+        }
+    ]
+}
