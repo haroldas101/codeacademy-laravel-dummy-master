@@ -22,6 +22,14 @@ Route::get('/{name}', function ($name): string {
     return "hello $name";
 });
 
+Route::get('/{operation}/{a}/{b}', function ($operation, string $a, string $b): string{
+    $sum =  $a + $b;
+    $subtract = $a - $b;
+    $multiply = $a * $b;
+    $divite = $a / $b;
+    return " Calculator  - sum: $sum, subtract: $subtract, multiply: $multiply, divite: $divite.";
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
